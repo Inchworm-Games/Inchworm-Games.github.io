@@ -1,0 +1,25 @@
+:root {
+    --color-primary: #3b82f6;
+    --color-success: #22c55e;
+    --color-danger: #ef4444;
+    --color-gray: #6b7280;
+    
+    --status-todo-bg: #f9fafb;
+    --status-todo-hover: #f3f4f6;
+    --status-progress-bg: #dbeafe;
+    --status-progress-hover: #bfdbfe;
+    --status-done-bg: #dcfce7;
+    --status-done-hover: #bbf7d0;
+}
+
+.transition-all {
+    transition: all 0.2s ease-in-out;
+}
+
+.transform {
+    transform-origin: center;
+}
+
+.hover\:scale-101:hover {
+    transform: scale(1.01);
+}
